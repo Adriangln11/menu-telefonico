@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproyectos | Menú Telefónico</title>
+</head>
+<body>
+    
+<main>
+    
+        <form method="POST" action="/add_contact">
+            <h3>Agregar contacto</h3>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="number">Número:</label>
+            <input type="text" id="number" name="number" required><br>
+            <input type="submit" value="Agregar contacto">
+        </form>
+    
+        <form method="POST" action="/search_contact">
+            <h3>Buscar contacto</h3>
+            <label for="search_name">Nombre:</label>
+            <input type="text" id="search_name" name="search_name" required><br>
+            <input type="submit" value="Buscar contacto">
+        </form>
+</main>
+
+
+</body>
+</html>
